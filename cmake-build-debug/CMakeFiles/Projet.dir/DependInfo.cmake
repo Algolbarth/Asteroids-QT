@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/cmake-build-debug/Projet_autogen/mocs_compilation.cpp" "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/cmake-build-debug/CMakeFiles/Projet.dir/Projet_autogen/mocs_compilation.cpp.o"
-  "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/src/MainWindow.cpp" "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/cmake-build-debug/CMakeFiles/Projet.dir/src/MainWindow.cpp.o"
-  "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/src/MyScene.cpp" "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/cmake-build-debug/CMakeFiles/Projet.dir/src/MyScene.cpp.o"
-  "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/src/main.cpp" "/mnt/c/Users/Paul/Onedrive/Bureau/Projet/cmake-build-debug/CMakeFiles/Projet.dir/src/main.cpp.o"
+  "/home/cbihan/Desktop/tmp4/cmake-build-debug/Projet_autogen/mocs_compilation.cpp" "/home/cbihan/Desktop/tmp4/cmake-build-debug/CMakeFiles/Projet.dir/Projet_autogen/mocs_compilation.cpp.o"
+  "/home/cbihan/Desktop/tmp4/src/MainWindow.cpp" "/home/cbihan/Desktop/tmp4/cmake-build-debug/CMakeFiles/Projet.dir/src/MainWindow.cpp.o"
+  "/home/cbihan/Desktop/tmp4/src/MyScene.cpp" "/home/cbihan/Desktop/tmp4/cmake-build-debug/CMakeFiles/Projet.dir/src/MyScene.cpp.o"
+  "/home/cbihan/Desktop/tmp4/src/main.cpp" "/home/cbihan/Desktop/tmp4/cmake-build-debug/CMakeFiles/Projet.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,11 +21,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "Projet_autogen/include"
-  "/usr/include/x86_64-linux-gnu/qt5"
-  "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
-  "/usr/include/x86_64-linux-gnu/qt5/QtGui"
-  "/usr/include/x86_64-linux-gnu/qt5/QtCore"
-  "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+  "/usr/include/qt5"
+  "/usr/include/qt5/QtWidgets"
+  "/usr/include/qt5/QtGui"
+  "/usr/include/qt5/QtCore"
+  "/usr/lib64/qt5/mkspecs/linux-g++"
   )
 
 # Targets to which this target links.

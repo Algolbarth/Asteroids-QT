@@ -1,12 +1,13 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Projet_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/Projet_autogen.dir/ParseCache.txt"
   "Projet_autogen"
-  "CMakeFiles/Projet_autogen.dir/AutogenOldSettings.txt"
+  "CMakeFiles/Projet.dir/Projet_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/Projet.dir/src/MainWindow.cpp.o"
   "CMakeFiles/Projet.dir/src/MyScene.cpp.o"
   "CMakeFiles/Projet.dir/src/main.cpp.o"
-  "CMakeFiles/Projet.dir/Projet_autogen/mocs_compilation.cpp.o"
-  "Projet.pdb"
   "Projet"
+  "Projet.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

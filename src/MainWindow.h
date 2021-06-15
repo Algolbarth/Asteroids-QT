@@ -10,24 +10,30 @@
 
 #include "MyScene.h"
 
-class MainWindow : public QMainWindow {
-    Q_OBJECT
+class MainWindow : public QMainWindow
+{
+Q_OBJECT
 private :
-    MyScene* mainScene;
-    QGraphicsView* mainView;
-    QMenu* helpMenu;
+	MyScene *mainScene;
+	QGraphicsView *mainView;
+	QMenu *helpMenu;
 public:
-    MainWindow(QWidget* parent = nullptr);
-    virtual ~MainWindow();
+	explicit MainWindow(QWidget *parent = nullptr);
+
+	~MainWindow() override = default;
+
 public slots:
-    void slot_aboutMenu();
+
+	void slot_aboutMenu();
 };
 
-class vue : public QGraphicsView {
-    protected:
-        virtual void resizeEvent (QResizeEvent* event) {
-            this->fitInView(sceneRect());
-        }
+class vue : public QGraphicsView
+{
+protected:
+	void resizeEvent(QResizeEvent *event) override
+	{
+		this->fitInView(sceneRect());
+	}
 };
 
 #endif
