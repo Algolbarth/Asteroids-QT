@@ -9,7 +9,7 @@
 MyScene::MyScene(QObject *parent) : QGraphicsScene(parent)
 {
 	setSceneRect(0, 0, 1200, 700);
-	background = new QPixmap("background.jpg");
+	background = new QPixmap("assets/background.jpg");
 	this->game = true;
 
 	rect = new QGraphicsRectItem(0, 1, 1200, 20);
@@ -31,18 +31,18 @@ MyScene::MyScene(QObject *parent) : QGraphicsScene(parent)
 	best_score_text->setPos(0, 0);
 	this->addItem(best_score_text);
 
-	adversary = new QGraphicsPixmapItem(QPixmap("adversary.png").scaled(100, 100));
+	adversary = new QGraphicsPixmapItem(QPixmap("assets/adversary.png").scaled(100, 100));
 	adversary->setPos(550, 20);
 	this->addItem(adversary);
 
-	bonus = new QGraphicsPixmapItem(QPixmap("bonus.png").scaled(50, 50));
+	bonus = new QGraphicsPixmapItem(QPixmap("assets/bonus.png").scaled(50, 50));
 	bonus->setPos(std::experimental::randint(0, 1100), 20);
 	bonus_speed = 5;
 	this->addItem(bonus);
 
 	adversary_speed = 7;
 	progress_speed = 0;
-	player = new QGraphicsPixmapItem(QPixmap("character.png").scaled(100, 100));
+	player = new QGraphicsPixmapItem(QPixmap("assets/character.png").scaled(100, 100));
 	player->setPos(550, 599);
 	this->addItem(player);
 
